@@ -25,7 +25,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #298BF7;
-  --secondary: #27293D;
+  --secondary: #e200e260;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -3867,6 +3867,7 @@ input[type=button].btn-block {
   }
 }
 
+
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -3925,7 +3926,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #298BF7;
+  background-color: #298df700;
 }
 
 .nav-fill > .nav-link,
@@ -10116,7 +10117,7 @@ h3 {
 
 
 .gradient-background {
-  height: 900px;
+  height: 765px;
    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
      animation: gradient 15s ease infinite; 
      padding-top: calc(6rem + 94px);
@@ -10425,4 +10426,148 @@ form .row:first-child .floating-label-form-group {
 	0% { background-color: #b0ff95; }
 	50% { background-color: transparent; }
 	100% { background-color: #b0ff95; }
+}
+
+.box1 {
+  background-color: #000;
+  color: #fff;
+  opacity: .7;
+}
+
+/*Skills*/
+
+.skills {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 70px);
+  margin: 20px;
+}
+.skl{
+   margin-left: 20px;
+   color: yellow;
+}
+.sklLine{
+  position: relative;
+  bottom: 8px;
+  visibility: hidden;
+  padding-left: 6px;
+  color: greenyellow;
+}
+.ProgWidth {
+  padding: 0px 20px;
+}
+.skillDiv {
+  height: 5px;
+  width: 100%;
+  background-color: gray;
+}
+.skillBar {
+  display: block;
+  height: 5px;
+  background-color: rgb(26, 204, 19);
+}
+.p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.htmlBar {
+  width: 70%;
+  animation: html 3s 1s 5 forwards;
+}
+.cssBar {
+  width: 70%;
+  animation: css 3s 1s 5 forwards;
+}
+.jsBar {
+  width: 75%;
+  animation: js 3s 1s 5 forwards;
+}
+
+.javaBar {
+  width: 85%;
+  animation: java 3s 1s 5 forwards;
+}
+.ccpBar {
+  width: 80%;
+  animation: ccp 3s 1s 5 forwards;
+}
+.reactBar {
+  width: 10%;
+  animation: react 3s 1s 5 forwards;
+}
+.nodeBar {
+  width: 35%;
+  animation: node 3s 1s 5 forwards;
+}
+.sqlBar {
+  width: 85%;
+  animation: sql 3s 1s 5 forwards;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes ccp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes node {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 35%;
+  }
+}
+
+@keyframes sql {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
 }
