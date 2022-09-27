@@ -1,5 +1,5 @@
 const typedSpan = document.getElementById("typed")
-const totype = ["Programmer", "Web Developer", "Cloud Professional", "Freelance College Project advisor", "Linux Lover","DevOps Enthusiasist"]
+const totype = ["DevOps Engineer", "AWS/GCP Developer", "OpenSource Contributer", "Linux Lover", "Freelancer","Technology Enthusiasist"]
 
 const delayTyping_char = 100;
 const delayErasing_text = 150;
